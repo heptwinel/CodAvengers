@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=lato');
+
+body {
+	font-family: 'lato', sans-serif;
+	background: url(BG.svg) no-repeat center center fixed;
+	background-size: cover;
+}
+.main-section {
+	margin: 0 auto;
+	margin-top: 130px;
+	padding: 0;
+}
+.modal-content {
+	background-color: #FFFFFF;
+	margin-top: 100px;
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    box-sizing: border-box;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.form-group {
+	margin-bottom: 25px;
+}
+.form-group input {
+	height: 42px;
+	margin: 8px 0px;
+    padding: 20px 30px; 
+	border-radius: 10px;
+    border: 1px solid #9A9595;
+	font-size: 14px;
+	letter-spacing: 1px;
+	padding-left: 54px;
+}
+.form-group::before {
+	font-family: 'Font Awesome 5 Free';
+	content: "\f0e0";
+	position: absolute;
+	font-size: 22px;
+	left: 28px;
+	padding-top: 4px;
+	color: #555e60;
+	font-weight: 900;
+}
+.form-group:last-of-type::before {
+	content: "\f023";
+	font-weight: 900;
+}
+.form-input button {
+	width: 40%;
+	margin: 5px 0 25px;
+	margin-bottom: 2px;
+}
+.btn-info {
+	background-color: #1c6288;
+	font-size: 15px;
+	border-radius: 5px;
+	padding: 7px 14px;
+	border: 1px solid #daf1ff;
+}
+.btn-info:hover {
+	background-color: #074978;
+	border: 1px solid #daf1ff;
+}
+.create {
+	padding: 5px 0 25px;
+}
+.create a {
+	color: #000000;
+}
+h4{
+	margin-top: 15px;
+}
+img{
+	height: 150px;
+	width: 150px;
+	margin-top: 50px;
+}
+.btn-primary{
+	background: #074978;
+	border-radius: 20px 0px 0px 20px;
+}
+.btn-secondary{
+	background: #C4C4C4;
+	border-radius: 0px 20px 20px 0px;
+}
+.btn-primary:hover {
+	background-color: #074978;
+}
+/* .top-button [login]{
+	display: flex; 
+	justify-content: end;
+	width: 60px;
+	height: 120px;
+	font-size: 4em;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
