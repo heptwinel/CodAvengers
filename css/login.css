@@ -8,7 +8,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 menu {
     display: flex;
@@ -28,7 +28,6 @@ menu {
 }
 .signup {
     text-decoration: none;
-    background-color: #f7f7f7;
     padding: 8px 15px;
     border-radius: 5px;
     border: 2px solid #074978;
@@ -43,21 +42,25 @@ menu {
   }
 
 img {
-    width: 40%;
+    width: 37%;
     text-align: center;
     margin-bottom: 30px;
+}
+.others a{
+  text-decoration: none;
+  color: #074978;
 }
 
 /* contact form */
 .container {
-    max-width: 400px;
+    max-width: 500px;
     width: 100%;
     margin: 0 auto;
     margin-top: 40px;
     position: relative;
     text-align: center;
     padding: 20px;
-    background-color: #f7f7f7;
+    background-color: #ffffff;
     border-radius: 5px;
 
     box-shadow: 0 19px 38px rgba(0,0,0,0.30),
@@ -84,13 +87,13 @@ img {
   #contact input[type="title"],
   #contact input[type="email"],
   #contact input[type="password"] {
-    width: 80%;
+    width: 90%;
     border-radius: 5px;
     border: 1px solid #ccc;
     background: #FFF;
     margin: 0 0 5px;
     padding: 17px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Lato', sans-serif;
   }
   
   #contact input[type="text"]:hover,
@@ -103,7 +106,7 @@ img {
     border: 1px solid #aaa;
   }
 .checkbox {
-    text-align: center;
+    text-align: right;
     font-size: 15px;
     color: #074978;
   }
@@ -120,14 +123,6 @@ img {
     margin-top: 10px;
     padding: 10px 50px;
     font-size: 17px;
-  }
-  
-  #contact button[type="submit"]:hover {
-    background: #074974;
-    color: #fff;
-    -webkit-transition: background 0.3s ease-in-out;
-    -moz-transition: background 0.3s ease-in-out;
-    transition: background-color 0.3s ease-in-out;
   }
   
   #contact button[type="submit"]:active {
@@ -155,3 +150,43 @@ img {
   :-ms-input-placeholder {
     color: #888;
   }
+
+  @media(max-width: 768px) {
+    body {
+        background-color: #074978;
+        color: #fff;
+        
+    }
+    .container {
+      background-color: #074978;
+    }
+    .login {
+      padding: 7px 20px;
+      color: #074978;
+      background-color: #FFF;
+      border: 2px solid #fff;
+  }
+  .signup {
+    color: #fff;
+    border: 2px solid #fff;
+  }
+  #contact button[type="submit"] {
+    border: 2px solid #fff;
+    color: #fff;
+  }
+  .checkbox {
+    text-align: right;
+    font-size: 15px;
+    color: #fff;
+  }
+  img {
+    width: 35%;
+}
+#contact input[type="text"],
+#contact input[type="title"],
+#contact input[type="email"],
+#contact input[type="password"] {
+  width: 85%;
+  padding: 14px;
+}
+}

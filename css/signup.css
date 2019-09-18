@@ -7,7 +7,9 @@ body {
     background-image: url("../images/BG.svg");
     background-size: cover;
     background-position: center;
-    font-family: 'Raleway', sans-serif;
+    background-attachment: fixed;
+    font-family: 'Lato', sans-serif;
+    overflow-y: hidden;
 }
 menu {
     display: flex;
@@ -27,7 +29,7 @@ menu {
 }
 .signup {
     text-decoration: none;
-    background-color: #f7f7f7;
+    background-color: #ffffff;
     padding: 8px 15px;
     border-radius: 5px;
     border: 2px solid #074978;
@@ -42,21 +44,21 @@ menu {
   }
 
 img {
-    width: 40%;
+    width: 38%;
     text-align: center;
     margin-bottom: 30px;
 }
 
 /* contact form */
 .container {
-    max-width: 400px;
+    max-width: 500px;
     width: 100%;
     margin: 0 auto;
     margin-top: 20px;
     position: relative;
     text-align: center;
     padding: 20px;
-    background-color: #f7f7f7;
+    background-color: #363636;
     border-radius: 5px;
 
     box-shadow: 0 19px 38px rgba(0,0,0,0.30),
@@ -83,13 +85,13 @@ img {
   #contact input[type="title"],
   #contact input[type="email"],
   #contact input[type="password"] {
-    width: 80%;
+    width: 90%;
     border-radius: 5px;
     border: 1px solid #ccc;
     background: #FFF;
     margin: 0 0 5px;
     padding: 17px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Lato', sans-serif;
   }
   
   #contact input[type="text"]:hover,
@@ -104,7 +106,7 @@ img {
 .checkbox {
     text-align: center;
     font-size: 15px;
-    color: #074978;
+    color: #fff;
   }
 .button {
     text-align: center;
@@ -119,14 +121,6 @@ img {
     margin-top: 10px;
     padding: 10px 50px;
     font-size: 17px;
-  }
-  
-  #contact button[type="submit"]:hover {
-    background: #074974;
-    color: #fff;
-    -webkit-transition: background 0.3s ease-in-out;
-    -moz-transition: background 0.3s ease-in-out;
-    transition: background-color 0.3s ease-in-out;
   }
   
   #contact button[type="submit"]:active {
@@ -154,3 +148,38 @@ img {
   :-ms-input-placeholder {
     color: #888;
   }
+
+
+
+  @media(max-width: 768px) {
+    body {
+        background-color: #074978;
+        color: #fff;
+        overflow: hidden;
+    }
+    .container {
+      background-color: #074978;
+    }
+    .login {
+      padding: 7px 20px;
+      color: #FFF;
+      border: 2px solid #fff;
+  }
+  .signup {
+    padding: 9px 20px;
+}
+  #contact button[type="submit"] {
+    border: 2px solid #fff;
+    color: #fff;
+  }
+  img {
+    width: 35%;
+}
+#contact input[type="text"],
+#contact input[type="title"],
+#contact input[type="email"],
+#contact input[type="password"] {
+  width: 85%;
+  padding: 14px;
+}
+}

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0 user-scalable=0"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" 
     href= 
 "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
@@ -12,38 +12,36 @@
     <link rel="stylesheet" href="css/signup.css">
 </head>
 <body>
-    
-
-    <div class="wrapper">
-        <div class="container">
-                <div class="header">
-                        <menu>
-                            <a href="index.html" class="login">Log In</a>
-                            <a href="#" class="signup">Sign Up</a>
-                        </menu>
-                        <div id="logo"><img src="images/logo.svg" alt="logo"></div>
-                    </div>
-                <form id="contact" action="" method="post">
-                    <fieldset>
-                            <!-- <i class="fa fa-user icon"></i>  -->
-                        <input placeholder="Username" type="text" tabindex="1" minlength="4" required autofocus>
+<div class="wrapper">
+    <div class="container">
+            <div class="header">
+                    <menu>
+                        <a href="index.html" class="login">Log In</a>
+                        <a href="#" class="signup">Sign Up</a>
+                    </menu>
+                    <div id="logo"><img src="images/logo-white.svg" alt="logo"></div>
+                </div>
+            <form id="contact" action="" method="post">
+                <fieldset>
+                        <!-- <i class="fa fa-user icon"></i>  -->
+                    <input placeholder="Username" type="text" tabindex="1" minlength="4" required autofocus>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Example@gmail.com" type="email" tabindex="2" required>
+                </fieldset>
+                <fieldset>
+                    <input type="password" name="Password" id="password" placeholder="Password" tabindex="2" required/>
+                </fieldset>
+                <fieldset class="checkbox">
+                        <input type="checkbox" name="remember" id="remember" /> I agree to the Terms & Conditions
                     </fieldset>
-                    <fieldset>
-                        <input placeholder="Example@gmail.com" type="email" tabindex="2" required>
-                    </fieldset>
-                    <fieldset>
-                        <input type="password" name="password" id="password" placeholder="password" tabindex="2" required/>
-                    </fieldset>
-                    <fieldset class="checkbox">
-                            <input type="checkbox" name="remember" id="remember" />I agree to the Terms & Conditions
-                        </fieldset>
-                    <fieldset class="button">
-                        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending" >Sign Up</button>
-                    </fieldset>
-                   
-                </form>
-                <a href="dashboard.html" target="_blank" rel="noopener noreferrer">check the dashboard page</a>
-            </div>
+                <fieldset class="button">
+                    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending" >Sign Up</button>
+                </fieldset>
+                
+            </form>
+            <a href="dashboard.html" target="_blank" rel="noopener noreferrer" style="color: #fff">check the dashboard page</a>
         </div>
+    </div>
 </body>
 </html>
