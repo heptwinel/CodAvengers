@@ -11,6 +11,7 @@ body {
     font-family: 'Lato', sans-serif;
     overflow-y: hidden;
 }
+/*menu*/
 menu {
     display: flex;
     justify-content: flex-end;
