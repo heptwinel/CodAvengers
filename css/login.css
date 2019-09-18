@@ -1,1 +1,157 @@
- 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("../images/BG.svg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Raleway', sans-serif;
+}
+menu {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    
+}
+.login {
+    text-decoration: none;
+    background-color: #074978;
+    padding: 8px 20px;
+    border-radius: 5px;
+    color: #333;
+    margin-right: 10px;
+    font-size: 13px;
+    color: #FFF
+}
+.signup {
+    text-decoration: none;
+    background-color: #f7f7f7;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: 2px solid #074978;
+    color: #333;
+    font-size: 13px;
+}
+.icon { 
+    position: absolute;
+    top: 28px;
+    left: 65%;
+    font-size: 15px;
+  }
+
+img {
+    width: 40%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* contact form */
+.container {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30),
+     0 15px 12px rgba(0,0,0,0.22);
+  }
+  
+  #contact input[type="text"],
+  #contact input[type="title"],
+  #contact input[type="email"],
+  #contact input[type="password"],
+  #contact button[type="submit"] {
+    font: 400 14px/18px; 
+  }
+  
+  fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+  }
+  
+  #contact input[type="text"],
+  #contact input[type="title"],
+  #contact input[type="email"],
+  #contact input[type="password"] {
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 17px;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  #contact input[type="text"]:hover,
+  #contact input[type="title"]:hover,
+  #contact input[type="email"]:hover,
+  #contact input[type="password"]:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
+  }
+.checkbox {
+    text-align: center;
+    font-size: 15px;
+    color: #074978;
+  }
+.button {
+    text-align: center;
+}
+  #contact button[type="submit"] {
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background: #074978;
+    color: #fff;
+    margin: 0 0 5px;
+    margin-top: 10px;
+    padding: 10px 50px;
+    font-size: 17px;
+  }
+  
+  #contact button[type="submit"]:hover {
+    background: #074974;
+    color: #fff;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  #contact button[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+  }
+  
+  #contact input:focus,
+  #contact textarea:focus {
+    outline: 0;
+    border: 1px solid #aaa;
+  }
+  
+  ::-webkit-input-placeholder {
+    color: #888;
+  }
+  
+  :-moz-placeholder {
+    color: #888;
+  }
+  
+  ::-moz-placeholder {
+    color: #888;
+  }
+  
+  :-ms-input-placeholder {
+    color: #888;
+  }
