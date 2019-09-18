@@ -29,7 +29,7 @@
                 $url = "http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
                 if(strpos($url, 'signup-successful') !== false){
                     echo "
-                        <span style='color: #074978; font-size: 18px;'>Signup successful!.</span>
+                        <span style='color: green; font-size: 18px;'>Signup successful!.</span>
                     ";
                 }
                 if(strpos($url, 'empty-fields') !== false){
