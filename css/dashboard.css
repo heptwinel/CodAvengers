@@ -41,7 +41,9 @@ a {
     color: #fff;
     font-weight: 500;
     border-radius: 6px;
-
+}
+.user {
+    color: #074978;
 }
 
 @media(max-width: 768px) {
