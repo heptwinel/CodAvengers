@@ -3,6 +3,6 @@ Blue: #074978
 
 Grey: #E3E3E3
 
-Black: #000000
+Black: #363636
 
 BG are SVG.
