@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="css/signup.css">
     <!-- 
         Designed by @StephanieOgbudu and @Faith Egwuenu,
-        Front End Developed By @abby_joe, tekipharm, @localhost and @ElijahWale,
-        Back End Developed By @Kazeem Asifat, @ibeFx, @Merit and @Queue
+        Front End Developed By @abby_joe, tekipharm, @localhost, @Merit and @ElijahWale,
+        Back End Developed By @Kazeem Asifat, @ibeFx  and @Queue
     -->
 </head>
 <body>
@@ -48,7 +48,7 @@
                     <input type="password" name="password" id="password" placeholder="password" tabindex="2" required/>
                 </fieldset>
                 <fieldset class="checkbox">
-                        <input type="checkbox" name="remember" id="remember" />I agree to the Terms & Conditions
+                        <input type="checkbox" name="remember" id="remember" required/>I agree to the Terms & Conditions
                     </fieldset>
                 <fieldset class="button">
                     <button name="submit" type="submit" id="contact-submit" data-submit="...Sending" >Sign Up</button>
