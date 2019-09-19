@@ -19,8 +19,8 @@
     <title>CodeAvengers - Sign in</title>
     <!-- 
         Designed by @StephanieOgbudu and @Faith Egwuenu,
-        Front End Developed By @abby_joe, tekipharm, @localhost and @ElijahWale,
-        Back End Developed By @Kazeem Asifat, @ibeFx, @Merit and @Queue
+        Front End Developed By @abby_joe, tekipharm, @localhost, @Merit and @ElijahWale,
+        Back End Developed By @Kazeem Asifat, @ibeFx and @Queue
     -->
 </head>
 <body>
