@@ -11,7 +11,7 @@
     <!-- 
         Designed by @StephanieOgbudu and @Faith Egwuenu,
         Front End Developed By @abby_joe, tekipharm, @localhost and @ElijahWale,
-        Back End Developed By @Kazeem Asifat, @ibeFx and @Queue
+        Back End Developed By @Kazeem Asifat, @ibeFx, @Merit and @Queue
     -->
 </head>
 <body>
