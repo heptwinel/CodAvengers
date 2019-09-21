@@ -39,7 +39,7 @@
             <form id="contact" action="backend/signup_processor.php" method="post">
                 <fieldset>
                         <!-- <i class="fa fa-user icon"></i>  -->
-                    <input placeholder="Username" type="text" name="username" tabindex="1" minlength="4" required autofocus>
+                    <input placeholder="Username" type="text" name="username" tabindex="1" minlength="6" required autofocus>
                 </fieldset>
                 <fieldset>
                     <input placeholder="Example@gmail.com" type="email" name="email" tabindex="2" required>
